@@ -1,0 +1,45 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+}
+
+
+.page-inactive{
+   
+   
+    background-color: white;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+
+.pagination button.page-active{
+    background: rgb(35, 35, 35);
+    color: rgb(247, 241, 241);
+    border-radius: 5px;
+    margin: 2px;
+    border: 0.5px solid rgb(35, 35, 35);
+}
+
+.prev-nex-button-active {
+    border: none;
+    background: white;
+    color: rgb(39, 38, 38);
+
+}
+
+.prev-nex-button-inactive{
+    opacity: 0.9;
+    border: none;
+    background: white;
+}
+
+
+.prev-nex-button-active:hover{
+    background: rgb(35, 35, 35);
+    color: rgb(247, 241, 241);
+    
+}

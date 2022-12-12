@@ -1,0 +1,121 @@
+.item {
+  border: 0.5px solid rgb(218, 206, 206);
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+  width: 65vh;
+}
+
+.title {
+  color: rgb(61, 60, 57);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.info h4 {
+  color: rgb(62 60 60 / 73%);
+  padding-left: 25px;
+}
+
+.title img {
+  height: 40px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.basic-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: rgb(110 109 109 / 55%);
+}
+
+.basic-detail span {
+  color: black;
+}
+
+.desc-title {
+  color: rgb(110 109 109 / 55%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+
+.desc-title p {
+  color: black;
+  margin-top: 2px;
+}
+.desc {
+  margin-top: 15px;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content-hidden {
+  display: none;
+}
+
+.content-show {
+  display: block;
+}
+
+.edit {
+  width: 140px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: rgb(110 109 109 / 55%);
+}
+
+.select-options {
+  border-radius: 5px;
+  border-color: rgb(110 109 109 / 55%);
+  width: 140px;
+  height: 25px;
+}
+
+.edit-desc {
+  border-radius: 5px;
+  border-color: rgb(110 109 109 / 55%);
+}
+
+.actions {
+  display: flex;
+  margin-top: 15px;
+  justify-content: flex-end;
+}
+
+.action-button {
+  background-color: white;
+  border: none;
+ 
+
+}
+
+.disable-button{
+  opacity: 0.5;
+}
+
+.enable-button{
+  opacity: 0.9;
+  border: none;
+  background-color: white;
+}
+
+.error-text {
+  color: rgb(119, 28, 28);
+}

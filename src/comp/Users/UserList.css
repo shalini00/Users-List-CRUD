@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+  h1{
+    color: #6a6465
+    
+  }
+  .search{
+    width: 65vh;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0.2px solid grey;
+    
+  }
+
+  .search:focus{
+    outline: none;
+  }
+
+  
+  .search-icon{
+      margin-right: 50px;
+  }
